@@ -1,0 +1,81 @@
+/*h1 {
+    font-size: 35px;
+    font-style: strong;
+    color: darkblue;
+    font-family: Georgia, serif;
+    text-decoration-line: underline;
+    text-decoration-color: darkblue;
+    text-decoration-style: solid;
+}
+
+h2 {
+    font-size: 25px;
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: darkblue;
+    text-decoration-style: solid;
+}
+
+h3 {
+    font-size: 25px;
+    color: darkblue;
+    text-decoration-line: underline;
+    text-decoration-color: darkblue;
+    text-decoration-style: solid;
+}
+
+h4 {
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 20px
+}
+
+h5 {
+    color: black;
+    font-family: Georgia, serif;
+    font-size: 20px
+}
+
+p {
+    font-size: 35px;
+    text-decoration: none;
+    color: darkblue;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+*/
+
+body {
+    padding-top: 100px;
+    width: 100%;
+    background-color: #aad3f3;
+    /*background-image: url(https://www.protokoll-inland.de/SharedDocs/bilder/Webs/PI/EN/Beflaggung/Beflaggungssituationen/VereinteNationen/flagge-un.jpg?__blob=poster&v=5);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+}
+
+.navbar {
+    border-bottom: 2px solid #dddddd;
+}
+
+.navbar .navbar-brand {
+    /*background-color: #aad3f3;
+    color: #ffffff;*/
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+}
+
+.navbar img {
+    height: 75%;
+}
+
+.navbar a {
+    border-left: 1px solid #efefef;
+}
+
+.navbar a:first-child {
+    border-left: 0 none;
+}
